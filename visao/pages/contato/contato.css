@@ -11,21 +11,13 @@ body {
     height: 100px;
 }
 
-.nav-link{
-    font-size: 20pt;
+.table{
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-h1{
-    color: white;
-    font-weight: bolder;
-    padding-top: 30px;
-    margin-bottom: 50px;
-}
-
-.btn{
-    width: 500px;
-    margin-bottom: 30px;
-    font-size: 20pt;
+tr{
+    color: aqua;
 }
 
 .espaco{

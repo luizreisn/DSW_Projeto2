@@ -1,0 +1,69 @@
+.navbar {
+    background-color: #682a8f;
+}
+
+.imgLogo {
+    height: 100px;
+}
+
+body {
+    padding: 180px 0px 0px 0px;
+    background-color: #1ed760;
+}
+
+.card-login{
+    background-color: white;
+    height: 480px;
+    width: 350px;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding-top: 90px;
+}
+
+h4{
+    color:#682a8f;
+    margin-bottom: 20px;
+    font-weight:bolder;
+}
+
+.logo-card{
+    position: absolute;
+}
+
+.logo{
+    height: 150px;
+    width: auto;
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+
+.input-group-text{
+    background-color: #1ed760;
+    border-radius: 5px;
+}
+
+.input-group-append{
+    border-radius: 5px;
+}
+
+.fas{
+    color: white;
+}
+
+.btn{
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+footer {
+    padding-top: 30px;
+    background-color: #682a8f;
+}
+
+a {
+    color: white;
+    font-size: 15pt;
+}
