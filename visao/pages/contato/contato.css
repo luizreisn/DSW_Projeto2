@@ -11,17 +11,20 @@ body {
     height: 100px;
 }
 
-.table{
-    padding-left: 100px;
-    padding-right: 100px;
+.espaco{
+    height: 50px;
 }
 
 tr{
-    color: aqua;
+    color: white;
 }
 
-.espaco{
-    height: 50px;
+th{
+    background-color: #682a8f;
+}
+
+.btn{
+    margin-bottom: 20px;
 }
 
 footer {

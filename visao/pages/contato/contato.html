@@ -23,7 +23,8 @@
                     <li class="nav-item"><a class="nav-link" href="../perfil/perfil.html">Perfil</a></li>
                     <li class="nav-item active"><a class="nav-link" href="../contato/contato.html">Form Contato</a></li>
                     <li class="nav-item"><a class="nav-link" href="../trabalhe/trabalhe.html">Form Trabalhe</a></li>
-                    <li class="nav-item"><a class="nav-link" href="../login/login.html">Sair <i class="fas fa-sign-out-alt"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="../login/login.html">Sair <i
+                                class="fas fa-sign-out-alt"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -31,35 +32,45 @@
 
     <div class="espaco"></div>
 
-    <footer class="page-footer">
-
-		<div class="text-center text-white">
-			<h6 class="text-uppercase font-weight-bold">Qualquer problema entrar em contato</h6>
-			<hr class="bg-success d-inline-block mx-auto" style="width: 85px; height: 2px;">
-			<ul class="list-unstyled">
-				<li class="my-2"><i class="fas fa-home"></i> Av. Paulista, 2000 - São Paulo</li>
-				<li class="my-2"><i class="fas fa-envelope"></i><a href="mailto:chernobyls@gmail.com">
-						chernobyls@gmail.com</a></li>
-				<li class="my-2"><i class="fas fa-phone"></i> +55 (11) 1111-1111</li>
-				<li class="my-2"><i class="fas fa-phone"></i> +55 (11) 2222-2222</li>
-			</ul>
-		</div>
-
-        <div class="container">
-            <div class="row py-4 d-flex align-items-center">
-                <div class="col-md-12 text-center">
-                    <a href="#"><i class="fab fa-instagram text-white mr-4"></i></a>
-                    <a href="#"><i class="fab fa-facebook-f text-white mr-4"></i></a>
-                    <a href="#"><i class="fab fa-twitter text-white mr-4"></i></a>
-                    <a href="#"><i class="fab fa-linkedin text-white"></i></a>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form action="" method="POST">
+                    <div class="input-group mt-3">
+                        <input type="email" class="form-control" name="email" placeholder="Buscar por E-Mail"
+                            aria-label="Buscar por E-Mail" required>
+                        <div class="input-group-append">
+                            <input type="submit" name="buscarEmail" value="Buscar" class="btn btn-primary">
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-
-        <div class="footer-copyright text-center text-white py-3">
-            <p>&copy; 2021 Cherno & Byl´s Company. <br> Todos os direitos reservados.</p>
+        <div class="row">
+            <div class="col">
+                <form action="" method="POST">
+                    <div class="input-group mt-3">
+                        <input type="text" class="form-control" name="nome" placeholder="Buscar por nome"
+                            aria-label="Buscar por nome" required>
+                        <div class="input-group-append">
+                            <input type="submit" name="buscarNome" value="Buscar" class="btn btn-primary">
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-    </footer>
+        <div class="row">
+            <div class="col text-center mt-5">
+                <form action="/DSW_ProjetoAdm/controle/controleContato.php" method="POST">
+                    <div class="form-group form-check-inline">
+                        <div class="col text-center">
+                            <input type="submit" name="listar" value="Listar todos" class="btn btn-primary">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -71,4 +82,5 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
 </body>
+
 </html>

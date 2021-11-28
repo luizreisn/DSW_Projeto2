@@ -5,7 +5,8 @@
     $conexao = new Conexao();
     $conn = $conexao ->conectar();
     $contatoDAO = new ContatoDAO();
-    if(isset($_GET['flag'])){
+
+    if(isset($_POST["listar"])){
         $contatoDAO -> listar($conn);
     }
 ?>
